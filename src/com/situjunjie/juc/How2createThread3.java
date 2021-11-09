@@ -4,6 +4,10 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 创建线程的方式
+ *
+ * 面试：多线程实现的方式有多少种：
+ * 传统的是继承thread类和实现runnable接口，
+ * java5以后又有实现callable接口和java的线程池获得
  */
 public class How2createThread3 {
 

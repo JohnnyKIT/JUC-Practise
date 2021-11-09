@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * wait  >  await
  * notifyAll > signal
  *
- * 只要涉及到线程之间需要配合 那么久需要通信
+ * 只要涉及到线程之间需要配合 那么就需要通信
  * 问题：3个线程 打印AAAAABBBBBCCCCCAAAAABBBBBCCCCC..有序打印15轮
  */
 public class ThreadComunicat6 {
